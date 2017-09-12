@@ -1,5 +1,6 @@
 class Solution:
     """
+    http://www.lintcode.com/zh-cn/problem/move-zeroes/
     给一个数组 nums 写一个函数将 0 移动到数组的最后面，非零元素保持原数组的顺序
     注意事项
         1.必须在原数组上操作
