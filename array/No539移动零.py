@@ -4,7 +4,7 @@ class Solution:
     注意事项
         1.必须在原数组上操作
         2.最小化操作数
-    给出 nums = [0, 1, 0, 3, 12], 调用函数之后, nums = [1, 3, 12, 0, 0].
+    例：给出 nums = [0, 1, 0, 3, 12], 调用函数之后, nums = [1, 3, 12, 0, 0].
     @param: nums: an integer array
     @return:
     """
