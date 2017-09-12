@@ -1,6 +1,7 @@
 
 class Solution:
     """
+    http://www.lintcode.com/zh-cn/problem/partition-array-by-odd-and-even/
     #分割一个整数数组，使得奇数在前偶数在后。
     例如：给定 [1, 2, 3, 4]，返回 [1, 3, 2, 4]。
     @param: nums: an array of integers
