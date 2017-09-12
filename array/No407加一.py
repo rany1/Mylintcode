@@ -1,5 +1,6 @@
 class Solution:
     """
+    http://www.lintcode.com/zh-cn/problem/plus-one/
     给定一个非负数，表示一个数字数组，在该数的基础上+1，返回一个新的数组。
     该数字按照大小进行排列，最大的数在列表的最前面。
     给定 [1,2,3] 表示 123, 返回 [1,2,4].
