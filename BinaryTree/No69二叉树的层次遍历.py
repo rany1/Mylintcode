@@ -33,21 +33,17 @@ class Solution:
         if root is None:
             return [];
         q = Queue.Queue()
-        result.append([root.val]);
         q.put(root);
         while not q.empty():
             qArr=[];
-            aArr=[];
-            while not q.empty():
+            size=q.qsize();
+            for index in range(0,size):
                 node=q.get();
+                qArr.append(node.val);
                 if node.left is not None:
-                    qArr.append(node.left.val);
-                    aArr.append(node.left);
+                    q.put(node.left);
                 if node.right is not None:
-                    qArr.append(node.right.val);
-                    aArr.append(node.right);
-            if len(qArr):
-                result.append(qArr);
-            for i in range(0,len(aArr)):
-                q.put(aArr[i]);
+                    q.put(node.right);
+            result.append(qArr);
+            
         return result;
